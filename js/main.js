@@ -7,6 +7,7 @@ submitButton.addEventListener('click', function() {
     const passwordValue = password.value;
     if(emailValue === 'islam@gmail.com' && passwordValue === 'aaaaaa'){
         console.log('email and password is correct' , emailValue , passwordValue);
+        window.location.href = 'bank.html'
     }
     else if(emailValue !== 'islam@gmail.com' && passwordValue !== 'aaaaaa'){
         console.log('email and password is incorrect' , emailValue , passwordValue);
